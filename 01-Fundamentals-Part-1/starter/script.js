@@ -435,4 +435,28 @@ else {
     console.log(`Koala's team is the highest average score. Koala's team win!!`)
 };
 
+
+console.log(`BONUS DATA 1`);// BONUS DATA 1 //
+const dolphinsBonusData1Score = [97, 112, 101];
+let dolphinsBonusData1Sum = 0;
+
+for (let i = 0; i < dolphinsBonusData1Score.length; i++) {
+  if (dolphinsBonusData1Score[i] > 100) {
+    dolphinsBonusData1Sum += dolphinsBonusData1Score[i];
+  }
+}
+
+console.log("Total skor tim Dolphins: " + dolphinsBonusData1Sum);
+
+/*const dolphinsBonusData1Score = [97, 112, 101];
+let dolphinsBonusData1Sum = 0;
+for (var i = 0; i < dolphinsBonusData1Score.length; i ++) {
+    if (dolphinsBonusData1Score[i] > 100) {
+        dolphinsBonusData1Sum += dolphinsBonusData1Score[i]};
+};
+const dolphinsBonusData1Average = dolphinsBonusData1Sum / dolphinsData1Score.length > 100;
+console.log(`Dolphin's team score is ${dolphinsBonusData1Score}`)
+console.log(`Dolphin's team score that allowed is ${dolphinsBonusData1Score.length > 100}`);
+console.log(`Dolphin's team average score is ${dolphinsBonusData1Average}`);
+*/
 /////////////////////////////////////////////
