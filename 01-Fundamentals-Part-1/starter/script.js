@@ -366,7 +366,7 @@ if(favourite !== 23) {
 /////////////////////////////////////////////
 
 /////////////////////////////////////////////
-
+/*
 const hasDriversLicense = true // A
 const hasGoodVision = true // B
 const hasDriversLicense2 = true // A
@@ -397,3 +397,42 @@ if (hasDriversLicense && hasGoodVision && !isTired2) {
 else {
     console.log('Someone else should drive')
 };
+*/
+/////////////////////////////////////////////
+
+/////////////////////////////////////////////
+
+// CODING CHALLENGE 3 !! //
+
+//DATA 1//
+const dolphinsData1Score = [96, 108, 108];
+let dolphin1Sum = 0;
+for (var i = 0; i < dolphinsData1Score.length; i++ ) {
+    dolphin1Sum += dolphinsData1Score[i];
+};
+const dolphinsData1Average = dolphin1Sum / dolphinsData1Score.length;
+
+console.log(`Dolphin's team score is ${dolphinsData1Score}`);
+console.log(`Average Dolphin's team score is ${dolphinsData1Average}`);
+
+const koalasData1Score = [88, 91, 110];
+let koalas1sum = 0;
+for (var i = 0; i < koalasData1Score.length; i++) {
+    koalas1sum += koalasData1Score[i]
+};
+const koalasData1Average = koalas1sum / koalasData1Score.length;
+
+console.log(`Koala's team score is ${koalasData1Score}`);
+console.log(`Average Koala's team score is ${Math.floor(koalasData1Average)}`);
+
+if(dolphinsData1Average > koalasData1Average) {
+    console.log(`Dolphin's team is the highest average score. Dolphin's team win!!`)
+}
+else if(dolphinsData1Average === koalasData1Average) {
+    console.log(`Dolphin's and Koala's team is have same score. Draw!!`)
+}
+else {
+    console.log(`Koala's team is the highest average score. Koala's team win!!`)
+};
+
+/////////////////////////////////////////////
